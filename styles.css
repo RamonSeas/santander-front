@@ -1,0 +1,40 @@
+body {
+    background-color: #fffbf7;
+}
+
+h1 {
+    font-family: montserrat;
+    font-size: 30pt;
+    color: #46484c;
+    text-align: center;
+}
+h2 {
+    font-family: montserrat;
+    font-size: 20pt;
+    color:blue;
+}
+
+p {
+    font-family: montserrat;
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 20px;
+}
+label{
+    font-family: montserrat;
+}
+input{
+    font-family:raleway;
+    border-radius: 50px;
+    border-width: 1px;
+    width: 150px;
+    height: 20px;
+}
+button {
+    font-family: montserrat;
+    color: #fff;
+    background-color: #025157;
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+}
