@@ -30,7 +30,7 @@ input{
     width: 150px;
     height: 20px;
 }
-button {
+.formulario button {
     font-family: montserrat;
     color: #fff;
     background-color: #025157;
@@ -38,3 +38,57 @@ button {
     height: 30px;
     width: 150px;
 }
+
+.header {
+    font-family: montserrat;
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    line-height: 45px;
+  }
+  
+  li {
+    display: inline;
+    margin: 0 25px 0 25px;
+  }
+
+  .header > * {
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle;
+      height: 100%;
+      line-height: 45px;
+  }
+
+  .logo {
+      width: 15%;
+  }
+
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+.menu-item {
+    display: inline;
+  }
+.actions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+.actions > * {
+    margin: 0 10px 0 10px;
+  }
+.actions a {
+    color: #67b54b;
+  }
+  .actions button {
+    font-family: montserrat;
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
